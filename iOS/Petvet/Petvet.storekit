@@ -1,0 +1,41 @@
+{
+  "identifier" : "Petvet",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "petvet_pro_group",
+      "localizations" : [],
+      "name" : "Petvet Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "petvet_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Petvet Pro unlocks Vaccination reminders and multi-pet vet history export",
+              "displayName" : "Petvet Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.petvetcost.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Petvet Pro Monthly",
+          "subscriptionGroupID" : "petvet_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
