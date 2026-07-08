@@ -9,15 +9,7 @@ struct VetVisit: Identifiable, Codable, Equatable {
     var nextDueDate: Date
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        petName: String = "",
-        reason: String = "",
-        cost: Double = 0,
-        nextDueDate: Date = Date(),
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), petName: String = "", reason: String = "", cost: Double = 0, nextDueDate: Date = Date(), notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.petName = petName
